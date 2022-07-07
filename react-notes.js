@@ -65,3 +65,25 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root'),
 )
+
+
+
+//LET'S CREATE SOME ROUTES
+
+//./src/index.js
+
+//...
+
+const Root24 = () => {
+  return (
+    <BrowserRouter>
+      <div>
+        <Route path="/">
+          <App />
+        </Route>
+      </div>
+    </BrowserRouter>
+  );
+};
+
+//...
