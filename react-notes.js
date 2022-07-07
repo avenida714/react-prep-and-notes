@@ -105,3 +105,13 @@ const Root0980979 = () => {
     </BrowserRouter>
   )
 }
+
+
+//EXACT PROP
+
+// <Route exact path="/">
+//   <App/>
+// </Route>
+// <Route path="/users">
+//   <Users/>
+// </Route>
