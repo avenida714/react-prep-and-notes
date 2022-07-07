@@ -90,3 +90,18 @@ const Root24 = () => {
 
 
 // ./src/index.js
+
+const Root0980979 = () => {
+  return (
+    <BrowserRouter>
+      <div>
+        <Route path ="/">
+          <App />
+        </Route>
+        <Route path="/users">
+          <Users />
+        </Route>
+      </div>
+    </BrowserRouter>
+  )
+}
