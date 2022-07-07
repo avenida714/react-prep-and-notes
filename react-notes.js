@@ -27,3 +27,13 @@ const Root = () => {
     </BrowserRouter>
   );
 };
+
+
+// ./src/index.js
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Root />
+  </React.StrictMode>,
+  document.getElementById('root'),
+)
