@@ -115,3 +115,17 @@ const Root0980979 = () => {
 // <Route path="/users">
 //   <Users/>
 // </Route>
+
+
+//PATH PARAMS AND USEPARAMS
+
+<Route path="/users/:userId">
+  <Profile />
+</Route>
+
+import React from 'react';
+import {useParams} from 'react-router-dom';
+
+function Example() {
+  const params = useParams();
+}
