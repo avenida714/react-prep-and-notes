@@ -37,3 +37,24 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root'),
 )
+
+
+// ROUTE COMPONENT
+
+//./src/index.js
+
+import React from 'react' ;
+import ReactDOM from 'react-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
+import App from './App';
+import Uswers from './components/Users';
+
+const Root = () => {
+  return (
+    <BrowserRouter>
+      <div>
+        {/* TODO: Routes */}
+      </div>
+    </BrowserRouter>
+  );
+};
