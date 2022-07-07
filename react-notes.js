@@ -49,7 +49,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import App from './App';
 import Uswers from './components/Users';
 
-const Root = () => {
+const Root1 = () => {
   return (
     <BrowserRouter>
       <div>
@@ -58,3 +58,10 @@ const Root = () => {
     </BrowserRouter>
   );
 };
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Root/>
+  </React.StrictMode>,
+  document.getElementById('root'),
+)
