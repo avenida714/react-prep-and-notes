@@ -323,3 +323,6 @@ export default function Example() {
 }
 
 /** how to create navigation links for your route paths using <link> and <navLink> </navLink>  how to redirect useres using redirect, and update a browser's url programmatically (or when triggered by user input) by using a history obj returned from react router's useHistory hook.*/
+
+
+//REACT ROUTER NESTED ROUTES
