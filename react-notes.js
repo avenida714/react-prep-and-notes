@@ -234,3 +234,45 @@ import {BrowserRouter, Route, Navlink} from 'react-router-dom';
 // <NavLink to="/" exact={true} activeStyle={{ fontWeight: "bold" }}>App</NavLink>
 
 // <NavLink to="/" exact onClick={handleClick}>App with click handler</NavLink>
+
+
+//SWITCHING BETWEEN ROUTES
+
+const Root3029483209409 = () => {
+  const handleClick = () => {
+    console.log("Thanks for clicking")
+  };
+
+  return (
+    <BrowserRouter>
+      <div>
+        <NavLink to="/" exact={true} activeStyle={{ fontWeight: "bold"}}>App</NavLink>
+        <NavLink activeClassName="red" to="/users">Users</NavLink>
+        <NavLink activeClassName="blue" to="/hello">Hello</NavLink>
+        <NavLink activeClassName="black" to="/users/1">Bobo's Profile</NavLink>
+        {/* NavLink with onClick prop */}
+
+        <NavLink to="/" exact onClick={handleClick}>App with click handler</NavLink>
+
+        <Switch>
+          <Route exact path="/">
+            <App/>
+          </Route>
+
+          <Route path="/users">
+            <Users />
+          </Route>
+
+          <Route path="/users/:userId">
+            <Profile />
+          </Route>
+
+          <Route>
+            <h1>404: Page not found</h1>
+          </Route>
+        </Switch>
+
+      </div>
+    </BrowserRouter>
+  );
+};
