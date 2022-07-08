@@ -156,3 +156,12 @@ Link or NavLink to create links with relative paths to routes in app
 redirect to redirect user to another path
 
 useHistory hookk to update a browser's URL*/
+
+
+//LINK
+
+//./src/index.js
+
+import {BrowserRouter, Route, Link} from 'react-router-dom';
+
+//link can take two props -- to and onClick
