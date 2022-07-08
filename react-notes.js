@@ -276,3 +276,5 @@ const Root3029483209409 = () => {
     </BrowserRouter>
   );
 };
+
+/** Now you have control over the precedence of rendered components  jsx of the last route will be rendered whenever the browser attempts to visit an undefined route*/
