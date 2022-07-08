@@ -204,3 +204,28 @@ const Root2031980498 = () => {
 import {BrowserRouter, Route, Navlink} from 'react-router-dom';
 
 /** the active classname prop of the NavLink component allows you to set a CSS class name for sytling the NavLink when its route is active. By default, the activeClassname is set to active. This means that you simply need to add an .active class to yoru CSS file to add active styling to your link. A NavLink will be active if its to prop path m atches the current URL */
+
+//CSS FILE
+/**
+ *
+ *
+ *
+ .active{
+   font-weight:bold;
+  }
+
+.red {
+  color:red;
+  font-size: 30px;
+}
+
+.blue {
+  color: blue;
+  font-size: 30px;
+}
+
+.green {
+  color: green;
+  font-size: 30px;
+}
+*/
