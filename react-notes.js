@@ -321,3 +321,5 @@ export default function Example() {
   // replace current url (won't be tracked in hisotry stack)
   const redirect = () => history.replace('/some/other/url/bobo')
 }
+
+/** how to create navigation links for your route paths using <link> and <navLink> </navLink>  how to redirect useres using redirect, and update a browser's url programmatically (or when triggered by user input) by using a history obj returned from react router's useHistory hook.*/
