@@ -195,3 +195,8 @@ const Root2031980498 = () => {
     </BrowserRouter>
   );
 };
+
+
+//NavLink
+
+/** NavLink works just like a <Link> but iwth a little extra functionality. it has the ability to add extra styling when the path it links to matches the current path. This makesit an ideal choice for a navigation bar, hence thename. This styling can be controlled by three extra props:  activeClassNamve, activeStyl, and exact.  being by updating your imports from react-router-dom */
