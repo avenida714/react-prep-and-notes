@@ -200,3 +200,7 @@ const Root2031980498 = () => {
 //NavLink
 
 /** NavLink works just like a <Link> but iwth a little extra functionality. it has the ability to add extra styling when the path it links to matches the current path. This makesit an ideal choice for a navigation bar, hence thename. This styling can be controlled by three extra props:  activeClassNamve, activeStyl, and exact.  being by updating your imports from react-router-dom */
+
+import {BrowserRouter, Route, Navlink} from 'react-router-dom';
+
+/** the active classname prop of the NavLink component allows you to set a CSS class name for sytling the NavLink when its route is active. By default, the activeClassname is set to active. This means that you simply need to add an .active class to yoru CSS file to add active styling to your link. A NavLink will be active if its to prop path m atches the current URL */
