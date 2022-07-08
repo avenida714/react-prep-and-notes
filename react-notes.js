@@ -300,3 +300,9 @@ const Profile21321241 = () => {
 }
 
 // export default Profile21321241;
+
+
+//USEHISTORY
+
+//push adds a new URL to the end of the history stack ; clicking the back button will take the browser tot he prev URL. URL only shows up on the stack once, useless to push multiple times;
+//replace replaces the current URL on the history stack, so the back button won't return you to the current URL
