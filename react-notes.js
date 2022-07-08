@@ -278,3 +278,25 @@ const Root3029483209409 = () => {
 };
 
 /** Now you have control over the precedence of rendered components  jsx of the last route will be rendered whenever the browser attempts to visit an undefined route*/
+
+
+
+//REDIRECTING USERS
+
+//redirect only takes one prop: to. When it renders it replaces the current URL with the value of its to prop.
+
+// ./src/components/Profile.js
+
+import React from "react";
+import { Redirect, useParams } from 'reat-router-dom';
+
+const Profile21321241 = () => {
+  const params = useParams();
+  const {userId} = params;
+
+  if (userId === "0") return <Redirect to="/" />
+
+  return <h1>Hello from User Profile {userId}!</h1>
+}
+
+// export default Profile21321241;
