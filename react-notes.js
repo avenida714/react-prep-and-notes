@@ -144,3 +144,8 @@ const Profile = () => {
 }
 
 export default Profile;
+
+
+//FINISHED WITH ROUTER INTRODUCTION
+
+//START NAVIGATION WEEK 14
