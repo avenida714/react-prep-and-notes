@@ -165,3 +165,27 @@ useHistory hookk to update a browser's URL*/
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 
 //link can take two props -- to and onClick
+
+//./src/index.js
+//...
+
+const Root2031980498 = () => {
+  return (
+    <BrowserRouter>
+      <div>
+        <Link to="/">App</Link>
+        <Link to="/users">Users</Link>
+        <Link to="/users/1">Bobo's Profile</Link>
+        <Route exact path="/">
+          <App />
+        </Route>
+        <Route path="/users">
+          <Users />
+        </Route>
+        <Route path ="/users/:userId">
+          <Profile />
+        </Route>
+      </div>
+    </BrowserRouter>
+  );
+};
