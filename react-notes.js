@@ -306,3 +306,17 @@ const Profile21321241 = () => {
 
 //push adds a new URL to the end of the history stack ; clicking the back button will take the browser tot he prev URL. URL only shows up on the stack once, useless to push multiple times;
 //replace replaces the current URL on the history stack, so the back button won't return you to the current URL
+
+
+import {useHistory} from 'react-router-dom';
+
+export default function Example() {
+
+  //history obj is returned from useHistory hook and has various methods
+  const history = useHistory();
+
+  //push a new url(and adding to the end of the history stack);
+  const handleclick = () => history.push('/some/url/bobo');
+
+  //
+}
