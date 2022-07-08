@@ -170,12 +170,18 @@ import {BrowserRouter, Route, Link} from 'react-router-dom';
 //...
 
 const Root2031980498 = () => {
+  //click handler function
+  const handleClick = () => {
+    console.log('Thanks for clicking!')
+  };
   return (
     <BrowserRouter>
       <div>
         <Link to="/">App</Link>
         <Link to="/users">Users</Link>
         <Link to="/users/1">Bobo's Profile</Link>
+        <Link to="/" onClick={handleClick}>App with click handler</Link>
+
         <Route exact path="/">
           <App />
         </Route>
