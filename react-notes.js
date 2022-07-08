@@ -318,5 +318,6 @@ export default function Example() {
   //push a new url(and adding to the end of the history stack);
   const handleclick = () => history.push('/some/url/bobo');
 
-  //
+  // replace current url (won't be tracked in hisotry stack)
+  const redirect = () => history.replace('/some/other/url/bobo')
 }
