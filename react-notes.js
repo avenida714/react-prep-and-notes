@@ -229,3 +229,8 @@ import {BrowserRouter, Route, Navlink} from 'react-router-dom';
   font-size: 30px;
 }
 */
+
+
+// <NavLink to="/" exact={true} activeStyle={{ fontWeight: "bold" }}>App</NavLink>
+
+// <NavLink to="/" exact onClick={handleClick}>App with click handler</NavLink>
