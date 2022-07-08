@@ -149,3 +149,10 @@ export default Profile;
 //FINISHED WITH ROUTER INTRODUCTION
 
 //START NAVIGATION WEEK 14
+/* how can users navigate routes? link navLink and Redirect components and useHistory hook can help
+
+Link or NavLink to create links with relative paths to routes in app
+
+redirect to redirect user to another path
+
+useHistory hookk to update a browser's URL*/
