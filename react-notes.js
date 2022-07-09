@@ -326,3 +326,31 @@ export default function Example() {
 
 
 //REACT ROUTER NESTED ROUTES
+
+// ./src/components/Profile.js
+
+import React from 'react';
+import {Route, Link, useParams, useRouteMatch} from 'react-router-dom';
+
+const Profile4r94739 = () => {
+  const {userId} = useParams();
+  const {url} = useRouteMatch();
+
+  return (
+    <>
+      <h1>Hello from UserProfile {userId}!</h1>
+      {/*replaced '/users/${userId}' with URL with `${url}`*/}
+
+      <Link to={`${url}/photos`}>Photos</Link>
+      <Link to={`${url}/about-me`}>About Me</Link>
+
+      {/* Replaced `/users/:userId` path with `${url}` */}
+      <Route path={`{url}/photos`}>
+        <h2>Photos for {userId}</h2>
+      </Route>
+      <Route path={`${url}/about-me`}>
+        <h2>About Me for {userId}</h2>
+      </Route>
+    </>
+  );
+}
