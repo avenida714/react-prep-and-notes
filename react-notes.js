@@ -310,7 +310,7 @@ const Profile21321241 = () => {
 
 import {useHistory} from 'react-router-dom';
 
-export default function Example() {
+// export default function Example() {
 
   //history obj is returned from useHistory hook and has various methods
   const history = useHistory();
@@ -320,7 +320,7 @@ export default function Example() {
 
   // replace current url (won't be tracked in hisotry stack)
   const redirect = () => history.replace('/some/other/url/bobo')
-}
+// }
 
 /** how to create navigation links for your route paths using <link> and <navLink> </navLink>  how to redirect useres using redirect, and update a browser's url programmatically (or when triggered by user input) by using a history obj returned from react router's useHistory hook.*/
 
