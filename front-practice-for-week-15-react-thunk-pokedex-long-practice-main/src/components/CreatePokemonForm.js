@@ -35,6 +35,8 @@ const CreatePokemonForm = ({ hideForm }) => {
     }
   }, [pokeTypes, type]);
 
+  //end of phase 3 dispatch the thunk action you just created on the submission of the createpokemonform
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
