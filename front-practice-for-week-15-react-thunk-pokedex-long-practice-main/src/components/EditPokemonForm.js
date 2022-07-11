@@ -28,6 +28,7 @@ const EditPokemonForm = ({ pokemon, hideForm }) => {
     dispatch(getPokemonTypes());
   }, [dispatch]);
 
+  //last part of phase 4 in readme 2
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -43,7 +44,7 @@ const EditPokemonForm = ({ pokemon, hideForm }) => {
     //   move2,
     //   moves: [move1, move2]
     // };
-    
+
     let updatedPokemon;
     if (updatedPokemon) {
       hideForm();
