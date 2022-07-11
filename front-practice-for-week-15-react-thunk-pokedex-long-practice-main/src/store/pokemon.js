@@ -48,6 +48,16 @@ export const getOnePokemon = (pokemonId) => async (dispatch) => {
   }
 }
 
+export const createPokemon = (pokemonData) => async (dispatch) => {
+  const res = await fetch(`/api/pokemon`, {
+    method: 'POST',
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(pokemonData)
+  })
+}
+
 const initialState = {
   list: [],
   types: []
