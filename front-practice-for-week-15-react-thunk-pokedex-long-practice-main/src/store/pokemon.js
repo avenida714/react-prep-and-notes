@@ -55,7 +55,13 @@ export const createPokemon = (pokemonData) => async (dispatch) => {
       "Content-Type": "application/json"
     },
     body: JSON.stringify(pokemonData)
-  })
+  });
+
+  if(res.ok) {
+    const pokemon = await res.json();
+    dispatch(addOnePokemon(pokemon));
+    return pokemon;
+  }
 }
 
 const initialState = {
