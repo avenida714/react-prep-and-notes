@@ -52,7 +52,7 @@ const CreatePokemonForm = ({ hideForm }) => {
       moves: [move1, move2]
     };
 
-    //change here
+    //change here to finish phase 3
     let createdPokemon = await dispatch(createPokemon(payload))
     if (createdPokemon) {
       history.push(`/pokemon/${createdPokemon.id}`);
