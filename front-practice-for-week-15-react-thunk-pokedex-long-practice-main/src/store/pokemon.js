@@ -77,7 +77,11 @@ export const updatePokemon = (pokemonData, pokemonId) => async (dispatch) => {
     body: JSON.stringify(pokemonData)
   });
 
-
+  if (res.ok) {
+    const updatedPokemon = await res.json();
+    dispatch(addOnePokemon(updatedPokemon));
+    return updatedPokemon
+  }
 }
 
 const initialState = {
