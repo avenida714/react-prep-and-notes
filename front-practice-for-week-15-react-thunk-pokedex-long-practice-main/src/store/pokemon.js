@@ -19,6 +19,7 @@ const addOnePokemon = pokemon => ({
   pokemon
 });
 
+//building out a thunk action creator
 export const getPokemon = () => async dispatch => {
   const response = await fetch(`/api/pokemon`);
 
