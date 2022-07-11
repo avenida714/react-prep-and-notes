@@ -42,7 +42,7 @@ export const getOnePokemon = (pokemonId) => async (dispatch) => {
 
   if (res.ok) {
     const pokemon = await res.json();
-    dispatch(addOnePokemon(pokemonId));
+    dispatch(addOnePokemon(pokemon));
     return pokemon;
   }
 }
