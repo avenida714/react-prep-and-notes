@@ -18,7 +18,7 @@ const PokemonDetail = () => {
   useEffect(() => {
     setShowEditPokeForm(false);
     setEditItemId(null);
-    dispatch(getOnePokemon)
+    dispatch(getOnePokemon(pokemonId))
   }, [pokemonId]);
 
   if (!pokemon || !pokemon.moves) {
