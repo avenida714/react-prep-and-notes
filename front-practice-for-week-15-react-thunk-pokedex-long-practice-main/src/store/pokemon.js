@@ -57,11 +57,27 @@ export const createPokemon = (pokemonData) => async (dispatch) => {
     body: JSON.stringify(pokemonData)
   });
 
+
+
   if(res.ok) {
     const pokemon = await res.json();
     dispatch(addOnePokemon(pokemon));
     return pokemon;
   }
+}
+
+//phase 4
+export const updatePokemon = (pokemonData, pokemonId) => async (dispatch) => {
+  //update is a PUT /api/pokemon/:id in the backend readme
+  const res = await fetch(`/api/pokemon/${pokemonId}`, {
+    method: 'PUT',
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(pokemonData)
+  });
+
+
 }
 
 const initialState = {
