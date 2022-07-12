@@ -379,3 +379,5 @@ const rootElement = document.getElementById('root')
 
 ///give react the element tree and the target
 ReactDOM.render(<NavBar/>, rootElement)
+
+//promises can't fail, only get rejected
