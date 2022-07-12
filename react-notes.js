@@ -400,3 +400,10 @@ ReactDOM.render(<NavBar/>, rootElement)
 
 //SRC FOLDER
   //template stuff that react gives you
+
+//mounting to the dom - an element was inserted, unmounted element is taken away
+
+//passing something by value    vs    by reference
+  // react doesn't look into obj or arr to see what's inside        myVar = []    let newvar = myVar  <-- DOES NOT WORK    let newVar = [...myVar]  OK
+
+//rule jsx is not html  --  never use an <a> </a> in react unless you are linking to an OUTSIDE page,  it causes a HARD refresh in the browser
