@@ -389,3 +389,14 @@ ReactDOM.render(<NavBar/>, rootElement)
 //make me an app that does xyz
 
 // npx create-react-app vanilla-createreactapp --template
+
+//node modules igonored by git ignore
+//public folder - it is a web-pack, module bundler used in react (a thing that does another thing)  takes all dependencies needed and spits out one bundle of code (js)
+//bundle.js html css
+  // babel another program important to react
+  //code is front-end code, gets compiled by web-pack, sent as bundle to client
+
+// favicon - html, index.html all the meta-data
+
+//SRC FOLDER
+  //template stuff that react gives you
