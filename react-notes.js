@@ -354,3 +354,22 @@ const Profile4r94739 = () => {
     </>
   );
 }
+
+
+//CREATE A FUNCTION COMPONENT
+
+function NavBar() {
+  return (
+  <nav>
+    <h1>Pet App</h1>
+    <ul>
+      <li className="selected">
+        <a href="/pets">Pets</a>
+      </li>
+      <li>
+        <a href="/owners">Owners</a>
+      </li>
+    </ul>
+  </nav>
+  );
+}
