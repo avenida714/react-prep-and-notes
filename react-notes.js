@@ -407,3 +407,8 @@ ReactDOM.render(<NavBar/>, rootElement)
   // react doesn't look into obj or arr to see what's inside        myVar = []    let newvar = myVar  <-- DOES NOT WORK    let newVar = [...myVar]  OK
 
 //rule jsx is not html  --  never use an <a> </a> in react unless you are linking to an OUTSIDE page,  it causes a HARD refresh in the browser
+// jsx is actually a function
+
+// what is the datatypes of <Components /> ?   they are functions being called as if like this:  Components()
+
+//babel uses recursion to display html under the hood
