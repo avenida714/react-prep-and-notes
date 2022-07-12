@@ -381,3 +381,11 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<NavBar/>, rootElement)
 
 //promises can't fail, only get rejected
+
+
+
+// WELCOME BACK
+
+//make me an app that does xyz
+
+// npx create-react-app vanilla-createreactapp --template
