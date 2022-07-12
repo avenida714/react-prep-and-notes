@@ -412,3 +412,7 @@ ReactDOM.render(<NavBar/>, rootElement)
 // what is the datatypes of <Components /> ?   they are functions being called as if like this:  Components()
 
 //babel uses recursion to display html under the hood
+
+
+// import React from 'react'
+// import bobo from './bobo/
