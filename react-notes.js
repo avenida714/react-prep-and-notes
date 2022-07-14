@@ -449,4 +449,6 @@ for CSS inline styling JSX, use camelCase if there is normally a -
 
 radio buttons   e.target.checked
 
+almost always an onChange event handler with form information
+
  */
