@@ -446,4 +446,7 @@ const handleSubmit = e => {    // e is always the event object
 
 for CSS inline styling JSX, use camelCase if there is normally a -
 
+
+radio buttons   e.target.checked
+
  */
