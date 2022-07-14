@@ -429,6 +429,21 @@ const handleSubmit = e => {    // e is always the event object
     setHasSubmitted(true);
     return;
   }
+
+  props.setUsername(username);
+  props.setFirstName(firstName);
+  props.setLastName(lastName);
+  props.setUrl(url);
+
+  setUsername("");
+  setFirstName("");
+  setLastName("");
+  setUrl("");
+  setHasSubmitted(false);
+  setErrors([])
 }
+
+
+for CSS inline styling, use camelCase
 
  */
