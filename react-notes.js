@@ -416,3 +416,19 @@ ReactDOM.render(<NavBar/>, rootElement)
 
 // import React from 'react'
 // import bobo from './bobo/
+
+
+/**
+notice that the type="submit" works with onSubmit
+
+const handleSubmit = e => {    // e is always the event object
+  e.preventDefault();        // stops a hard reset from happening
+
+  if(errors.length) {
+    alert("You have errors");
+    setHasSubmitted(true);
+    return;
+  }
+}
+
+ */
