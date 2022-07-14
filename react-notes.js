@@ -452,4 +452,7 @@ radio buttons   e.target.checked
 almost always an onChange event handler with form information
 
 history or useHistory is sometimes called navigate
+
+
+put a dependency array with useEffect if it keeps running with every change
  */
